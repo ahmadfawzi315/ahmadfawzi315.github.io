@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleautran.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Autran</title>
+  </head>
+  <body>
+    <div class="container-navbar-autran">
+      <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #104288;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img class="img-logo" src="LOGO.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Ahmad Fawzi
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT ME</a>
+                </li>
+                <li>
+                  <div class="container-sosmed-menu">
+                    <a><i class="fa-brands fa-linkedin icons"></i></a>
+                    <i class="fa-brands fa-instagram icons"></i>
+                    <i class="fa-brands fa-pinterest icons"></i>
+                    <i class="fa-brands fa-whatsapp icons"></i>
+                  </div>
+                </li>
+                <li>
+                  <img
+                    class="position-absolute bottom-0 end-0"
+                    id="pola1-menu"
+                    src="pola1.png"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-autran">
+      <div class="content-1">
+        <p id="txt-title-autran">AUTRAN</p>
+        <p id="txt-title-autran2">Automatic Transplanter Robot</p>
+      </div>
+      <div class="container-3d">
+        <img id="img-background-autran" src="AUTRAN.svg" alt="" />
+        <!-- <img src="gamtekautran.svg" alt="" style="height: 500px; width: auto;"/> -->
+        <model-viewer class="model-viewer"
+          src="autran2.gltf"
+          alt="autran"
+          shadow-intensity="2"
+          camera-controls
+          auto-rotate
+          ar
+        >
+        </model-viewer>
+      </div>
+      <div class="container-content-autran">
+        <div class="content-autran">
+          <p id="txt-autran">
+            Sayuran hidroponik merupakan komoditas hortikultura yang banyak
+            diminati dan dikembangkan saat ini. Pindah tanam merupakan salah
+            satu tahap budidaya hidroponik yang umumnya masih dilakukan secara
+            manual sehingga membutuhkan banyak tenaga dan waktu. Penerapan
+            otomatisasi dan robotika bisa menjadi alternatif agar proses pindah
+            tanam lebih efisien. Penelitian ini bertujuan merancang bangun dan
+            menguji kinerja robot transplanter untuk budidaya tanaman pada
+            sistem rakit apung. Metode yang digunakan adalah pendekatan
+            rancangan teknik secara umum yaitu rancangan fungsional, rancangan
+            struktural dan pengujian. Pelaksanaan penelitian diawali dengan
+            identifikasi masalah, analisis teknik, pembuatan model 3D, pembuatan
+            prototipe, uji fungsional dan uji kinerja. Prototipe robot
+            transplanter telah berhasil dipabrikasi dengan dimensi panjang 78.3
+            cm, lebar 108.4 cm, dan tinggi 130 cm yang terdiri dari konstruksi
+            rangka, manipulator dengan tipe rectangular coordinated yang memliki
+            tiga sumbu linier untuk bergerak yang dilengkapi linear drive tipe
+            omega dengan motor stepper yang memiliki akurasi yang tinggi, user
+            interface, dan penggerak robot berupa motor DC dan mecanum wheel.
+            Prototipe robot transplanter dapat digunakan untuk memindahkan bibit
+            tanaman ke sistem hidroponik secara otomatis. Berdasarkan hasil uji
+            kinerja diketahui kapasitas kerja sebesar 637 bibit/jam dengan
+            persentase keberhasilan pindah tanam sebesar 66.7%, menghasilkan
+            peningkatan kinerja pindah tanam 1.5 kali lebih besar dibandingkan
+            dengan pindah tanam secara manual sehingga dapat meringankan beban
+            petani hidroponik
+          </p>
+          <img
+            id="gamtekautran" src="gamtekautran.svg"
+            alt="" />
+        </div>
+        <div class="content-autran-img">
+          <div class="container-img">
+            <img class="img-autran" src="autran.jpeg" alt="" />
+            <p>Robot Transplanter</p>
+          </div>
+          <div class="container-img">
+            <img class="img-autran" src="Autran 1.svg" alt="" />
+            <p>Robot transplanter pada hidroponik rakit apung</p>
+          </div>
+        </div>
+        <div class="content-rangka">
+          <div id="container-rangka">
+            <div id="container-txt-rangka">
+              <p class="txt-subtitle">Konstruksi Rangka</p>
+              <p id="txt-rangka">
+                Rangka robot transplanter dibuat menggunakan bahan besi hollow
+                20x20 mm dan alumunium profile 2020 Besi Hollow dan alumunium
+                profile disambungkan menggunakan sambungan yang dibuat
+                menggunakan 3D printer. Alasan penggunaan sambungan tersebut
+                yaitu kemudahan dalam proses pemasangan yang dapat menggunakan
+                baut. Pengencang yang digunakan dalam penyambungan yaitu baut 5
+                mm dan dipasangkan dengan T-Nut.
+              </p>
+            </div>
+            <img id="gamtekrangka" src="gamtekrangka.svg" alt="" />
+          </div>
+          <img id="gamtekrangka2" src="gamtekrangka2.svg" alt="" />
+        </div>
+        <div class="content-rangka-img">
+          <div class="container-img">
+            <img class="img-autran" src="rangka.jpeg" alt="" />
+            <p>Konstruksi rangka robot transplanter</p>
+          </div>
+          <div class="container-img">
+            <img class="img-rangka" src="rangka2.jpeg" alt="" />
+            <p>Sambungan rangka</p>
+          </div>
+        </div>
+        <div class="content-sambungan">
+          <img class="gamteksambungan" src="gamteksambungan.svg" alt="" />
+          <img class="gamteksambungan2" src="gamteksambungan2.svg" alt="" />
+          <div class="container-manipulator">
+            <img id="gambarautran" src="gambarautran.png" alt="" />
+            <div id="container-txt-manipulator">
+              <p class="txt-subtitle">Konstruksi Manipulator</p>
+              <p id="txt-manipulator">
+                Manipulator sebagai komponen utama pada robot transplanter yang
+                berfungsi untuk menggerakkan end effector ke titik yang akan
+                dituju. Manipulator yang digunakan pada robot transplanter yaitu
+                tipe rectangular coordinated yang memiliki tiga derajat bebas
+                yaitu sumbu x, y, dan z
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="content-manipulator">
+          <img id="gamtekmanipulator" src="gamtekmanipulator.svg" alt="" />
+          <img id="x-axis" src="x-axis.svg" alt="" />
+          <img id="z-axis" src="z-axis.svg" alt="" />
+        </div>
+        <div class="content-manipulator-img">
+          <div class="container-img">
+            <img class="img-autran" src="manipulator.png" alt="" />
+            <p>Konstruksi manipulator</p>
+          </div>
+          <div class="container-img">
+            <img class="img-autran" src="lineardrive.png" alt="" />
+            <p>Linear drive</p>
+          </div>
+        </div>
+        <div class="content-lineardrive">
+          <div class="container-lineardrive">
+            <p id="txt-lineardrive">
+              Linear drive yang digunakan untuk menggerakkan manipulator yaitu
+              tipe omega linear drive. Komponen yang menyusun linear drive yaitu
+              motor stepper, timing pulley, timing belt, dan penopang motor.
+              Robot transplanter dilengkapi delapan linear drive, terdapat dua
+              buah untuk penggerak pada sumbu z, dua buah untuk penggerak pada
+              sumbu y, dan empat buah untuk penggerak pada sumbu x yang
+              dilengkapi dengan end effector yang berfungsi untuk mengambil
+              netpot. End effector dibuat sesuai dimensi netpot berdiameter 44
+              mm menggunakan 3D printer dan disambung dengan akrilik.
+            </p>
+            <img id="gamteklineardrive" src="gamteklineardrive.png" alt="" />
+            <img id="gamteklineardrive2" src="gamteklineardrive2.svg" alt="" />
+          </div>
+          <div class="container-endeffector">
+            <img id="gamtekendeffector" src="gamtekendeffector.svg" alt="" />
+            <div class="container-img">
+              <img class="img-autran" src="endeffector.png" alt="" />
+              <p>Linear drive</p>
+            </div>
+          </div>
+          <div class="content-kontrol">
+            <div id="container-txt-kontrol">
+              <p class="txt-subtitle">
+                Konstruksi Kotak Kontrol dan User Interface
+              </p>
+              <p id="txt-kontrol">
+                User interface adalah bagian yang berfungsi untuk operator memberi perintah kerja pada robot transplanter. Bagian ini terdapat layar display dan keypad. Kotak kontrol berfungsi untuk menempatkan komponen-komponen elektronika seperti Arduino Atmega, driver TB6560, driver dual bridge dan power supply. 
+              </p>
+            </div>
+            <div class="container-img">
+              <img class="img-diagram" src="diagram.svg" alt="" />
+              <p>Blok diagram jalur sinyal dan jalur catu daya</p>
+            </div>
+          </div>
+          <div class="content-kontrol-img">
+            <div class="container-img">
+              <img class="img-autran" src="kontrol box.jpg" alt="" />
+              <p>Konstruksi kotak kontrol</p>
+            </div>
+            <div class="container-img">
+              <img class="img-autran" src="interface.png" alt="" />
+              <p>Konstruksi user interface</p>
+            </div>
+          </div>
+          <div class="content-penggerak">
+            <div class="container-penggerak">
+              <div id="container-txt-penggerak" style="color: white;">
+                <p class="txt-subtitle">Konstruksi Penggerak Robot</p>
+                <p id="txt-penggerak">
+                  Robot trasnplanter digerakkan menggunakan motor DC dengan mecanum wheel berdiameter 97 mm. Motor DC dilengkapi dengan gearbox dengan perbandingan 1:50 untuk meningkatkan torsi motor yang dibuat menggunakan 3D printer. Pergerakan robot transplanter dipandu dengan mengikuti garis menggunakan sensor infrared. Penempatan posisi sensor infrared depat dilihat pada Gambar tempat sensor infrared, alasan penempatan seperti ini agar memudahkan pembacaan garis untuk pergerakan holonomic. Alasan lain adalah sebagai counter untuk mengetahui posisi system hidroponik yang akan ditanami.
+                </p>
+              </div>
+              <img id="gamtekpenggerak" src="gamtekpenggerak.svg" alt="" />
+              <img id="gamtekpenggerak2" src="gamtekpenggerak2.svg" alt="" />
+            </div>
+            <img id="gamteksensor" src="gamteksensor.svg" alt="" />
+          </div>
+          <div class="content-penggerak-img">
+            <div class="container-img">
+              <img class="img-autran" src="penggerak.png" alt="" />
+              <p>Konstruksi penggerak robot transplanter</p>
+            </div>
+            <div class="container-img">
+              <img class="img-autran" src="sensor.png" alt="" />
+              <p>Penempatan posisi sensor infrared</p>
+            </div>
+          </div>
+          <div class="content-other-project"></div>
+        </div>
+        <!-- <img id="img-content-autran" src="contentautran.png" alt="" /> -->
+        <!-- <img
+          id="img-content-autran-andro"
+          src="contentautranandro.png"
+          alt=""
+        /> -->
+      </div>
+    </div>
+    <div class="container-footer">
+      <div class="footer-atas">
+        <a class="navbar-brand" id="logo-footer" href="#"
+          ><img class="img-logo" src="LOGO.png" alt=""
+        /></a>
+        <div class="container-sosmed-footer">
+          <i class="fa-brands fa-linkedin icons"></i>
+          <i class="fa-brands fa-instagram icons"></i>
+          <i class="fa-brands fa-pinterest icons"></i>
+          <i class="fa-brands fa-whatsapp icons"></i>
+        </div>
+      </div>
+      <div class="footer-bawah">
+        <div class="menu-footer">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT ME</a>
+          </li>
+        </div>
+        <p id="copyright">&copy; Ahmad Fawzi Website 2022</p>
+      </div>
+    </div>
+
+    <!-- <img id="layoutautran" src="layoutautran.svg" alt="" /> -->
+
+    <!-- 💁 Include both scripts below to support all browsers! -->
+
+    <!-- Loads <model-viewer> for modern browsers: -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+
+    <!-- Loads <model-viewer> for old browsers like IE11: -->
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>

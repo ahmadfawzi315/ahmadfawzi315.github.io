@@ -1,0 +1,153 @@
+.container-3d {
+    height: 700px !important;
+    margin-top: -150px !important;
+}
+
+.model-viewer {
+    height: 700px !important;
+}
+
+.content-node {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #104288;
+    /* background-color: aqua; */
+}
+
+.container-img {
+    color: white !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-node {
+    width: 22.5vw
+}
+
+ .gamteknode {
+    width: 60%;
+ }
+
+.img-gps {
+    width: 35vw;
+    height: auto;
+}
+
+ .gamtekgps {
+    width: 45%;
+ }
+
+ .content-node2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+
+ .explodenode {
+    width: 80%;
+ }
+
+.container-gateaway {
+    width: 100%;
+    background-color: #104288;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3d-2 {
+    z-index: 2;
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #104288;
+    overflow: hidden;
+}
+
+.model-viewer-2{
+    z-index: 2;
+    position: relative;
+    width: 60%;
+    height: 600px;
+    padding-bottom: 20px;
+    background: rgba(0,0,0,0);
+}
+
+.explodegateaway {
+    width: 600px;
+    height: auto;
+}
+
+#img-background-gps {
+    z-index: 1;
+    position: absolute;
+    /* top: 200px; */
+    left: -7%;
+    width: 110%;
+    opacity: .7;
+    /* font-family: 'Inter';
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 22.5em; */
+    /* color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .5px; */
+}
+
+ @media screen and (max-width:800px) {
+    .content-node {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gamteknode {
+        width: 90%;
+    }
+    
+    .txt-node {
+        width: 300px
+    }
+
+    .explodenode {
+        width: 90%;
+    }
+
+    .img-gps {
+        width: 70%;
+    }
+
+    .gamtekgps {
+        width: 70%;
+    }
+ }
+
+ @media screen and (max-width: 700px) {
+    .explodegateaway {
+        width: 90%;
+    }
+ }
+
+ @media screen and (max-width:400px) {
+    .txt-node {
+        width: 280px
+    }
+ }

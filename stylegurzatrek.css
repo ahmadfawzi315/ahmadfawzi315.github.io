@@ -1,0 +1,198 @@
+.container-content-autran {
+    background-color: #d9d9d9;
+}
+
+.content-node {
+    z-index: 1;
+    position: relative;
+    padding-bottom: 250px !important;
+}
+
+.content-node2 {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0) !important;
+    margin-top: -200px !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-gurzatrek {
+    display: flex;
+}
+
+.container-txt-gurzatrek {
+    color: white;
+    font-family: 'inter';
+    width: 400px;
+    text-align: justify;
+}
+
+.txt-subtitle {
+    margin-bottom: 5px !important;
+}
+
+.txt-gurzatrek {
+    text-indent: 30px;
+    line-height: 18px;
+}
+
+.li-gurzatrek {
+    list-style-position: outside;
+    text-indent: 0px;
+}
+
+.txt-gurzatrek-spesifikasi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+pre.txt-spesifikasi {
+    width: 260px;
+    margin: 0;
+    font-family: 'inter';
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.gamtekgurzatrek1 {
+    display: none;
+}
+
+.container-gamtek {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamtekgurzatrek2 {
+    width: 329px;
+}
+
+@media screen and (max-width: 1300px) {
+    .content-node {
+        flex-direction: column !important;
+    }
+
+    .content-gurzatrek {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .container-txt-gurzatrek {
+        color: white;
+        font-family: 'inter';
+        width: 700px;
+        text-align: justify;
+    }
+    
+    pre.txt-spesifikasi {
+        width: 300px;
+    }
+
+    .gamtekgurzatrek1 {
+        display: block;
+        width: 329px;
+        height: 304px;
+    }
+
+    .gamtekgurzatrek2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .gamtekgurzatrek1 {
+        display: none;
+    }
+
+    .container-txt-gurzatrek {
+        width: 850px;
+    }
+
+    .gamtekgurzatrek2 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container-txt-gurzatrek {
+        width: 88vw;
+    }
+
+    .gamtekgurzatrek2 {
+        width: 35vw;
+    }
+
+    .gamtekgurzatrek3 {
+        margin-top: -10px;
+        width: 88vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #txt-title-autran {
+        font-size: 60px !important;
+    }
+
+    #txt-title-autran2 {
+        font-size: 16px !important;
+        margin-top: -30px !important;
+    }
+
+    .gamtekgurzatrek2 {
+        width: 40vw;
+    }
+
+    .gamtekgurzatrek3 {
+        margin-top: -10px;
+        width: 95vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #txt-title-autran {
+        font-size: 45px !important;
+    }
+
+    #txt-title-autran2 {
+        font-size: 13px !important;
+        margin-top: -30px !important;
+        padding-left: 5px !important;
+    }
+
+    .container-3d {
+        height: 600px !important;
+    }
+
+    .model-viewer {
+        height: 600px !important;
+    }
+
+    .txt-subtitle {
+        font-size: 16px !important;
+    }
+
+    .txt-gurzatrek {
+        font-size: 13px;
+    }
+
+    pre.txt-spesifikasi {
+        font-size: 13px;
+    }
+
+    .container-gamtek {
+        margin-top: -10px;
+    }
+}

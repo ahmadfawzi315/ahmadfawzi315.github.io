@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <title>Home</title>
+  </head>
+
+  <body>
+    <div class="container-navbar">
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img class="img-logo" src="LOGO.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Ahmad Fawzi
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#container-portofolio">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mailto:ahmadoji99@gmail.com">CONTACT ME</a>
+                </li>
+                <li>
+                  <div class="container-sosmed-menu">
+                    <a href="https://www.linkedin.com/in/ahmad-fawzi-6578081b6/"><i class="fa-brands fa-linkedin icons"></i></a>
+                    <a href="https://www.instagram.com/ahmadoji/"><i class="fa-brands fa-instagram icons"></i></a>
+                    <a href="https://id.pinterest.com/ahmadoji99/"><i class="fa-brands fa-pinterest icons"></i></a>
+                    <a href="https://wa.me/+6285342275288"><i class="fa-brands fa-whatsapp icons"></i></a>
+                  </div>
+                </li>
+                <li>
+                  <img
+                    class="position-absolute bottom-0 end-0"
+                    id="pola1-menu"
+                    src="pola1.png"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <img
+      class="position-absolute top-0 end-0"
+      id="pola1"
+      src="pola1.png"
+      alt=""
+    />
+
+    <div class="container-intro">
+      <img id="hello" src="Hello.png" alt="" />
+      <button
+        id="btn-intro"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        About Me
+      </button>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl modal-fullscreen-lg-down">
+          <div class="modal-content">
+            <!-- <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        
+                    </div> -->
+
+            <div class="modal-body">
+              <div class="container-aboutme">
+                <div class="aboutme">
+                  <img id="foto-oji" src="oji.png" alt="" />
+                  <p id="nama">Ahmad Fawzi</p>
+                  <p id="tentang">
+                    Lulusan IPB University jurusan Teknik Mesin dan Biosistem
+                    tahun 2022, yang selalu menambah pengetahuan dan pengalaman.
+                    Memiliki pengalaman mengerjakan berbagai proyek yang
+                    memiliki minat dalam bidang mechanical engineering terutama
+                    di bidang gambar teknik dan kontrol otomatis.
+                  </p>
+                </div>
+                <div class="list-aboutme">
+                  <div class="nav-aboutme">
+                    <ul
+                      class="nav nav-pills mb-3"
+                      id="pills-tab"
+                      role="tablist"
+                    >
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link active"
+                          id="pills-home-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#carouselExampleIndicators"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-home"
+                          aria-selected="true"
+                          data-bs-slide-to="0"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                        >
+                          Data Diri
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link"
+                          id="pills-profile-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#carouselExampleIndicators"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-profile"
+                          aria-selected="false"
+                          data-bs-slide-to="1"
+                          aria-current="true"
+                          aria-label="Slide 2"
+                        >
+                          Organisasi
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link"
+                          id="pills-contact-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#carouselExampleIndicators"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-contact"
+                          aria-selected="false"
+                          data-bs-slide-to="2"
+                          aria-current="true"
+                          aria-label="Slide 3"
+                        >
+                          Skill
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link"
+                          id="pills-disabled-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#carouselExampleIndicators"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-disabled"
+                          aria-selected="false"
+                          data-bs-slide-to="3"
+                          aria-current="true"
+                          aria-label="Slide 4"
+                        >
+                          Pengalaman Kerja
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                  <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="container-data">
+                          <img class="data-aboutme" src="datadiri.png" alt="" />
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="container-data">
+                          <img
+                            class="data-aboutme"
+                            src="organisasi.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="container-data">
+                          <img class="data-aboutme" src="skill.png" alt="" />
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="container-data">
+                          <img class="data-aboutme" src="kerja.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-sosmed">
+      <a href="https://www.linkedin.com/in/ahmad-fawzi-6578081b6/"><i class="fa-brands fa-linkedin icons"></i></a>
+      <a href="https://www.instagram.com/ahmadoji/"><i class="fa-brands fa-instagram icons"></i></a>
+      <a href="https://id.pinterest.com/ahmadoji99/"><i class="fa-brands fa-pinterest icons"></i></a>
+      <a href="https://wa.me/+6285342275288"><i class="fa-brands fa-whatsapp icons"></i></a>
+    </div>
+
+    <div class="container-pola2">
+      <img
+        class="position-absolute start-0"
+        id="pola2"
+        src="pola2.png"
+        alt=""
+      />
+    </div>
+
+    <div class="container-content" id="container-portofolio">
+      <div class="portofolio">
+        <img id="img-portofolio" src="portofolio.svg" alt="" />
+        <p class="txt-portofolio">Projects i've done</p>
+      </div>
+
+      <img id="pola3" src="pola3.svg" alt="" />
+      <img id="pola4" src="pola4.svg" alt="" />
+      <img id="pola5" src="pola6.svg" alt="" />
+      <img id="pola6" src="pola5.svg" alt="" />
+      <img id="pola7" src="pola7.svg" alt="" />
+
+      <div class="container-card-portofolio">
+        <div class="card1-portofolio">
+          <div class="background-card-portofolio">
+            <div class="content-card-portofolio">
+              <p class="txt-judul-card-portofolio content-card-special">
+                AUTRAN
+              </p>
+              <p class="txt-keterangan-card-portofolio">
+                Automatic Transplanter Robot
+              </p>
+              <a class="txt-seemore" href="autran.html"
+                ><button class="btn-card">See More >></button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card2-portofolio">
+          <div class="background-card-portofolio">
+            <div class="content-card-portofolio">
+              <p class="txt-judul-card-portofolio content-card-special">
+                GURZATREK
+              </p>
+              <p class="txt-keterangan-card-portofolio">
+                Motor Listrik Roda Tiga
+              </p>
+              <a class="txt-seemore" href="gurzatrek.html"
+                ><button class="btn-card">See More >></button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card3-portofolio">
+          <div class="background-card-portofolio">
+            <div class="content-card-portofolio">
+              <p class="txt-judul-card-portofolio">GSMART</p>
+              <p class="txt-keterangan-card-portofolio">
+                Smart Monitoring Lingkungan Pertumbuhan Tanaman
+              </p>
+              <a class="txt-seemore" href="node.html"
+                ><button class="btn-card">See More >></button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-project">
+        <div class="container-txt-project">
+          <p class="txt-portofolio">Other Projects</p>
+        </div>
+        <div class="slide-skills">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project1">
+                  <img class="img-project" src="toaster.png" alt="" />
+                  <div class="txt-project"">
+                    <p>Toaster</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a href="kilnventuri.html">
+                  <div class="card-project" id="card-project1">
+                    <img class="img-project" src="kiln indah.png" alt="" />
+                    <div class="txt-project">
+                      <p>Kiln Tipe Venturi</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project1">
+                  <img class="img-project" src="pengaduk.png" alt="" />
+                  <div class="txt-project">
+                    <p>Mesin Pengaduk Gula Semut</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project1">
+                  <img class="img-project" src="pinang.png" alt="" />
+                  <div class="txt-project">
+                    <p>Mesin Penyortir dan Pembelah Pinang</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project1">
+                  <img class="img-project" src="cyclone.png" alt="" />
+                  <div class="txt-project">
+                    <p>Mesin Cyclone</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project1">
+                  <img class="img-project" src="kilnjaki.png" alt="" />
+                  <div class="txt-project">
+                    <p>Kiln Tipe Drum</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project1">
+                  <img class="img-project" src="tray semai padi.png" alt="" />
+                  <div class="txt-project">
+                    <p>Tray Semai Padi</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="navigasi-slide">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="container-project">
+        <div class="container-txt-project">
+          <p class="txt-portofolio">Graphic Design Portofolio</p>
+        </div>
+        <div class="slide-skills">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project1"></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project2"></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project3"></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project4"></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project5"></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-project" id="card-project6"></div>
+              </div>
+            </div>
+            <div class="navigasi-slide">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="container-footer">
+        <div class="footer-atas">
+          <a class="navbar-brand" id="logo-footer" href="#"
+            ><img class="img-logo" src="LOGO.png" alt=""
+          /></a>
+          <div class="container-sosmed-footer">
+            <i class="fa-brands fa-linkedin icons"></i>
+            <i class="fa-brands fa-instagram icons"></i>
+            <i class="fa-brands fa-pinterest icons"></i>
+            <i class="fa-brands fa-whatsapp icons"></i>
+          </div>
+        </div>
+        <div class="footer-bawah">
+          <div class="menu-footer">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT ME</a>
+            </li>
+          </div>
+          <p id="copyright">&copy; Ahmad Fawzi Website 2022</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="position-absolute top-0 start-0 container-layout">
+        <img class="layout" src="Wireframe.png" alt="" />
+        <img class="layout" src="Wireframe - 2.png" alt="" />
+    </div> -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      if (window.innerWidth > 650) {
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 0,
+          slidesPerGroup: 1,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      } else {
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 2,
+          spaceBetween: 0,
+          slidesPerGroup: 1,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1158 @@
+#layoutautran {
+    z-index: -1;
+    position: absolute;
+    top: -200px;
+    width: 100%;
+    height: auto;
+    /* opacity: .2; */
+}
+
+.container-navbar-autran {
+    z-index: 5;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #104288;
+}
+
+/* .nav-link {
+    color: black !important;
+} */
+
+/* .container-autran {
+    background-color: #d0d0d0;
+} */
+
+.content-1 {
+    z-index: 3;
+    position: relative;
+    padding-top: 2%;
+    padding-left: 5%;
+    background-color: #104288;
+}
+
+#txt-title-autran {
+    font-family: 'Inter';
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+#txt-title-autran2 {
+    font-family: 'Inter';
+    margin-top: -50px;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.container-3d {
+    z-index: 2;
+    position: relative;
+    margin-top: -100px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #104288;
+    overflow: hidden;
+}
+
+.model-viewer {
+    z-index: 2;
+    position: relative;
+    width: 60%;
+    height: 600px;
+    padding-bottom: 20px;
+    background: rgba(0,0,0,0);
+}
+
+#img-background-autran {
+    z-index: 1;
+    position: absolute;
+    top: 200px;
+    left: -7%;
+    width: 110%;
+    opacity: .7;
+    /* font-family: 'Inter';
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 22.5em; */
+    /* color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .5px; */
+}
+
+.container-content-autran {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #104288; */
+    overflow: hidden;
+}
+
+.content-autran {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 300px;
+    background-color: #104288;
+    /* background-color: aqua; */
+}
+
+.content-autran-img {
+    z-index: 2;
+    position: absolute;
+    top: 1410px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 75px;
+    color: black;
+    /* padding-bottom: 20px; */
+    /* background-color: aqua; */
+}
+
+#txt-autran {
+    width: 400px;
+    height: auto;
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'inter';
+    text-indent: 50px;
+}
+
+#gamtekautran {
+    height: 600px;
+    width: auto;
+}
+
+.container-img {
+   display: flex;
+   flex-direction: column;
+   /* color:black;  */
+   font-family: 'inter';
+   font-size: 16px;
+}
+
+.img-autran {
+    width: 40vw;
+    height: auto;
+}
+
+.content-rangka {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 250px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #d9d9d9;
+}
+
+#container-txt-rangka {
+    z-index: 1;
+    position: absolute;
+    padding-top: 50px;
+    color: black;
+}
+
+.txt-subtitle {
+    /* color: black; */
+    text-align: justify;
+    font-size: 20px;
+    line-height: 18px;
+    font-family: 'inter';
+    font-weight: bold;
+}
+
+#txt-rangka {
+    width: 300px;
+    height: auto;
+    /* color: black; */
+    text-align: justify;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'inter';
+    text-indent: 50px;
+}
+
+#gamtekrangka {
+    height: 650px;
+    width: auto;
+    margin-top: 75px;
+}
+
+.content-rangka-img {
+    z-index: 3;
+    position: absolute;
+    top: 2650px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 75px;
+    color: white;
+    /* padding-bottom: 20px; */
+    /* background-color: aqua; */
+}
+
+.img-rangka {
+    width: 22.5vw;
+    height: auto;
+}
+
+.content-sambungan {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 230px;
+    background-color: #104288;
+}
+
+.gamteksambungan {
+    width: 75%;
+}
+
+.gamteksambungan2 {
+    display: none;
+}
+
+.container-manipulator {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#gambarautran {
+    width: 60%;
+    height: auto;
+}
+
+#container-txt-manipulator  {
+    color: white;
+    font-family: 'inter';
+}
+
+#txt-manipulator {
+    font-size: 16px;
+    width: 400px;
+    height: auto;
+    /* color: black; */
+    text-align: justify;
+    font-size: 16px;
+    line-height: 18px;
+    text-indent: 50px;
+}
+
+.content-manipulator {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#x-axis {
+    margin-right: 250px;
+    width: 850px;
+    height: auto;
+}
+
+#z-axis {
+    margin-left: 250px;
+    width: 850px;
+    height: auto;
+}
+
+.content-manipulator-img {
+    z-index: 2;
+    position: absolute;
+    top: 5600px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 75px;
+    color: white;
+    /* padding-bottom: 20px; */
+    /* background-color: aqua; */
+}
+
+.content-lineardrive {
+    width: 100%;
+    background-color: #104288;
+    padding-top: 300px;
+}
+
+.container-lineardrive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#txt-lineardrive {
+    width: 300px;
+    color: white;
+    font-family: 'inter';
+    font-size: 16px;
+    text-align: justify;
+    line-height: 18px;
+}
+
+#gamteklineardrive {
+    width: 57%;
+}
+
+#gamteklineardrive2 {
+    display: none;
+}
+
+.container-endeffector {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    color: white;
+    gap: 20px;
+}
+
+#gamtekendeffector {
+    width: 35%;
+    height: auto;
+}
+
+.content-kontrol {
+    width: 100%;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#txt-kontrol {
+    font-family: 'inter';
+    width: 450px;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.content-kontrol-img {
+    z-index: 2;
+    position: absolute;
+    top: 7450px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: baseline;
+    gap: 75px;
+    color: white;
+    /* padding-bottom: 20px; */
+    /* background-color: aqua; */
+}
+
+.content-penggerak {
+    width: 100%;
+    background-color: #104288;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-penggerak {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#txt-penggerak {
+    width: 300px;
+    font-family: 'inter';
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+#gamtekpenggerak {
+    width: 55%;
+}
+
+#gamtekpenggerak2 {
+    display: none;
+}
+
+#gamteksensor {
+    width: 55%;
+    margin-right: 100px;
+}
+
+.content-penggerak-img {
+    z-index: 2;
+    position: absolute;
+    top: 8800px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: baseline;
+    gap: 75px;
+    color: black;
+    /* padding-bottom: 20px; */
+    /* background-color: aqua; */
+}
+
+.content-other-project {
+    width: 100%;
+    background-color: #d9d9d9;
+    padding-top: 350px;
+}
+
+.container-footer {
+    background-color: #104288 !important;
+}
+
+#img-content-autran {
+    width: 100%;
+    height: auto;
+}
+
+#img-content-autran-andro {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:1275px) {
+    .content-autran {
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-autran-img {
+        gap: 20px;
+    }
+
+    #gamtekrangka {
+        height: 600px;
+    }
+
+    #gamtekrangka2 {
+        height: 600px;
+    } 
+    
+    #gambarautran {
+        width: 50%;
+    }
+
+    #gamtekmanipulator {
+        width: 850px;
+    }
+
+    #x-axis {
+        margin-right: 0px;
+    }
+
+    #z-axis {
+        margin-left: 0px;
+    }
+
+    .content-rangka-img {
+        top: 2620px;
+        gap: 20px;
+    }
+
+    .content-manipulator-img {
+        top: 5350px;
+        gap: 20px;
+    }
+
+    .container-lineardrive {
+        gap: 0px;
+    }
+
+    .content-kontrol {
+        gap: 50px;
+    }
+
+    .content-kontrol-img {
+        top: 7200px;
+        gap: 20px;
+    }
+
+    #gamteksensor {
+        margin-right: 0px;
+    }
+
+    .content-penggerak-img {
+        top: 8300px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .content-rangka {
+        padding-top: 150px;
+    }
+
+    .content-rangka-img {
+        top: 2550px;
+    }
+
+    .content-manipulator-img {
+        top: 5250px;
+    }
+
+    .content-lineardrive {
+        padding-top: 250px;
+    }
+
+    .content-kontrol-img {
+        top: 7000px;
+    }
+
+    .content-penggerak {
+        padding-top: 200px;
+    }
+
+    .content-penggerak-img {
+        top: 8150px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #gamtekautran {
+        width: 500px;
+        height: auto;
+    }
+    
+    .content-kontrol-img {
+        top: 6850px;
+    }
+
+    .content-penggerak-img {
+        top: 7950px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .content-rangka {
+        padding-top: 100px;
+    }
+
+    .content-autran-img {
+        top: 1500px;
+    }
+
+    .content-rangka-img {
+        top: 2500px;
+    }
+
+    .content-sambungan {
+        padding-top: 200px;
+    }
+
+    .content-manipulator-img {
+        top: 5000px;
+    }
+
+    .content-kontrol-img {
+        top:  6650px;
+    }
+
+    .content-penggerak-img {
+        top:  7700px;
+    }
+
+    .img-autran {
+        width: 400px;
+    }
+
+    .img-diagram {
+        width: 400px;
+    }
+
+    .content-kontrol {
+        gap: 20px;
+    }
+
+    #gamtekendeffector {
+        width: 350px;
+    }
+
+    #gamtekrangka {
+        width: 500px;
+        height: auto;
+    }
+
+    #gamtekrangka2 {
+        width: 360px;
+    }
+
+    #txt-autran {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #txt-autran {
+        width: 780px;
+    }
+
+    .content-autran-img {
+    top: 1650px;
+    }   
+
+    .img-autran {
+        width: 380px;
+    }
+
+    .content-rangka {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-rangka-img {
+        top: 3250px;
+    }
+
+    .gamteksambungan {
+        width: 675px;
+    }
+
+    #gamtekmanipulator {
+        width: 780px;
+    }
+
+    #x-axis {
+        width: 780px;
+    }
+
+    #z-axis {
+        width: 780px;
+    }
+
+    .content-manipulator-img {
+        top: 5600px;
+    }
+
+    .content-lineardrive {
+        padding-top: 200px;
+    }
+
+    #gamteklineardrive {
+        width: 500px;
+    }
+    #txt-lineardrive {
+        z-index: 4;
+        width: 250px;
+    }
+
+    .container-endeffector {
+        margin-top: -20px;
+    }
+
+    .txt-subtitle {
+        width: 300px;
+    }
+
+    #txt-kontrol {
+        width: 300px;
+    }
+
+    .content-kontrol-img {
+        top: 7200px;
+    }
+
+    #container-txt-penggerak {
+        margin-right: 100px;
+    }
+
+    #txt-penggerak {
+        width: 600px;
+    }
+
+    .content-penggerak-img {
+        top: 8300px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content-autran {
+        padding-bottom: 250px;
+    }
+    
+    #txt-autran {
+        width: 500px;
+    }
+
+    .content-autran-img {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        top: 1800px;
+    }
+
+    .content-rangka {
+        padding-top: 400px;
+        gap: 10px;
+    }
+
+    .content-rangka-img{
+        flex-direction: column;
+        align-items: center;
+        top: 3650px;
+        gap: 0px;
+    }
+
+    .img-rangka {
+        width: 300px;
+    }
+
+    .content-sambungan {
+        padding-top: 600px;
+    }
+
+    .container-manipulator {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #gambarautran {
+        width: 400px;
+    }
+
+    #container-txt-manipulator {
+        width: 100%;
+        background-color: #d9d9d9;
+        color: black;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding-left: 25%; */
+    }
+
+    #gamtekmanipulator {
+        width: 500px;
+    }
+
+    #x-axis {
+        width: 500px;
+    }
+
+    #z-axis {
+        width: 500px;
+    }
+
+    .content-manipulator {
+        padding-top: 20px;
+    }
+    
+    .content-manipulator-img {
+        top: 6050px;
+        gap: 0px;
+    }
+
+    .content-lineardrive {
+        padding-top: 500px;
+    }
+
+    #txt-lineardrive {
+        width: 400px;
+    }
+
+    .container-endeffector {
+        flex-direction: column;
+    }
+
+    .txt-subtitle {
+        width: 400px;
+    }
+
+    #txt-kontrol {
+        width: 400px;
+    }
+
+    .content-kontrol-img {
+        gap: 0px;
+        top: 8650px
+    }
+
+    #container-txt-penggerak {
+        margin-right: 0px;
+    }
+
+    .content-penggerak {
+        padding-top: 350px;
+    }
+
+    .content-penggerak-img {
+        gap: 0px;
+        top: 9900px;
+    }
+
+    #gamtekpenggerak {
+        width: 500px;
+    }
+
+    #gamteksensor {
+        width: 500px;
+    }
+
+    #txt-penggerak {
+        width: 400px;
+    }
+
+    .content-other-project {
+        padding-top: 500px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #img-content-autran {
+        width: 110%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container-autran {
+        background-color: #104288;
+    }
+
+    #txt-title-autran {
+        font-size: 60px;
+    }
+
+    #txt-title-autran2 {
+        font-size: 16px;
+        margin-top: -35px;
+    }
+
+    .container-3d {
+        margin-top: 0;
+        height: 450px;
+    }
+
+    .container-3d-2 {
+        margin-top: 0;
+        height: 450px;
+    }
+
+    .model-viewer {
+        height: 450px;
+        width: 85%;
+    }
+
+    .model-viewer-2 {
+        height: 450px;
+        width: 85%;
+    }
+    
+    #img-content-autran {
+        display: none;
+    }
+
+    #img-content-autran-andro {
+        z-index: 3;
+        position: relative;
+        display: block;
+        margin-top: -20px;
+    }
+
+    #txt-autran {
+        width: 400px;
+    }
+
+    #gamtekautran {
+        width: 400px;
+    }
+
+    .content-autran-img {
+        top: 1725px;
+    }
+
+    .content-rangka {
+        align-items: center;
+    }
+
+    #container-rangka {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container-txt-rangka {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #txt-rangka {
+        width: 400px;
+    }
+
+    #gamtekrangka {
+        margin-top: 0px;
+        width: 400px;
+    }
+
+    .content-sambungan {
+        padding-top: 550px;
+    }
+
+    .gamteksambungan {
+        display: none;
+    }
+
+    .gamteksambungan2 {
+        display: block;
+        width: 100%;
+    }
+
+    .content-manipulator {
+        gap: 5px;
+    }
+
+    #gambarautran {
+        width: 100%;
+    }
+
+    #gamtekmanipulator {
+        width: 400px;
+    }
+
+    #x-axis {
+        width: 400px;
+    }
+
+    #z-axis {
+        width: 400px;
+    }
+
+    .content-manipulator-img {
+        top: 6125px;
+    }
+
+    #gamteklineardrive {
+        display: none;
+    }
+
+    #gamteklineardrive2 {
+        width: 80%;
+        display: block;
+    }
+
+    .content-kontrol-img {
+        top: 8900px;
+    }
+
+    #gamtekpenggerak {
+        display: none;
+    }
+
+    #gamtekpenggerak2 {
+        display: block;
+        width: 400px;
+    }
+
+    #gamteksensor {
+        width: 400px;
+    }
+
+    .content-penggerak-img {
+        top: 10350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content-autran {
+        gap: 0px;
+    }
+    
+    #txt-autran {
+        width: 314px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    #gamtekautran {
+        width: 314px;
+    }
+
+    .content-autran-img {
+        top: 1530px;
+    }
+
+    .container-img {
+        font-size: 13px;
+    }
+
+    .img-autran {
+        width: 314px;
+    }
+
+    .content-rangka {
+        padding-top: 300px;
+        padding-bottom: 175px;
+    }
+
+    .txt-subtitle {
+        width: 314px;
+    }
+
+    #txt-rangka {
+        width: 314px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    #gamtekrangka {
+        width: 314px;
+    }
+
+    #gamtekrangka2 {
+        width: 314px;
+    }
+
+    .content-rangka-img {
+        top: 3250px;
+    }
+
+    .img-rangka {
+        width: 280px;
+        height: auto;
+    }
+
+    #txt-manipulator {
+        width: 314px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    #gamtekmanipulator {
+        width: 314px;
+    }
+
+    #x-axis {
+        width: 314px;
+    }
+
+    #z-axis {
+        width: 314px;
+    }
+
+    .content-manipulator-img {
+        top: 5325px;
+    }
+
+    .content-lineardrive {
+        padding-top: 400px;
+    }
+
+    #txt-lineardrive {
+        width: 314px;
+        font-size: 13px;
+        line-height: 15px;
+        text-indent: 50px;
+    }
+
+    .container-endeffector {
+        margin-top: 10px;
+    }
+
+    #gamtekendeffector {
+        width: 314px;
+    }
+
+    #txt-kontrol {
+        width: 314px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .img-diagram {
+        width: 314px;
+    }
+
+    .content-kontrol-img {
+        top: 7655px;
+    }
+
+    .content-penggerak {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    #txt-penggerak {
+        width: 314px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    #gamtekpenggerak2 {
+        width: 320px;
+    }
+
+    #gamteksensor {
+        width: 320px;
+        padding-top: 10px;
+    }
+
+    .content-penggerak-img {
+        top: 9050px;
+    }
+}

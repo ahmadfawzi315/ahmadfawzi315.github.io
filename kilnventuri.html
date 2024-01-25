@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleproject.css" />
+    <link rel="stylesheet" href="stylenode.css" />
+    <link rel="stylesheet" href="styleautran.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kiln Venturi</title>
+  </head>
+  <body>
+    <div class="container-navbar-autran">
+      <nav
+        class="navbar navbar-expand-md navbar-dark"
+        style="background-color: #104288"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img class="img-logo" src="LOGO.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Ahmad Fawzi
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT ME</a>
+                </li>
+                <li>
+                  <div class="container-sosmed-menu">
+                    <a><i class="fa-brands fa-linkedin icons"></i></a>
+                    <i class="fa-brands fa-instagram icons"></i>
+                    <i class="fa-brands fa-pinterest icons"></i>
+                    <i class="fa-brands fa-whatsapp icons"></i>
+                  </div>
+                </li>
+                <li>
+                  <img
+                    class="position-absolute bottom-0 end-0"
+                    id="pola1-menu"
+                    src="pola1.png"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-autran">
+      <div class="content-1">
+        <p id="txt-title-autran">KILN VENTURI</p>
+        <!-- <p id="txt-title-autran2">
+          Smart Monitoring Lingkungan Pertumbuhan Tanaman
+        </p> -->
+      </div>
+      <div class="container-3d">
+        <img id="img-background-autran" src="NODE.svg" alt="" />
+        <!-- <img src="gamtekautran.svg" alt="" style="height: 500px; width: auto;"/> -->
+        <model-viewer class="model-viewer"
+          src="kiln indah.glb"
+          alt="node3D"
+          shadow-intensity="2"
+          camera-controls
+          auto-rotate
+          ar
+        >
+        </model-viewer>
+      </div>
+      <div class="container-content-autran">
+        <div class="content-node">
+          <div class="container-img">
+            <img class="img-rangka" src="node 2.png" alt="" />
+            <p class="txt-node">Node pada tanaman purwoceng dalam greenhouse</p>
+          </div>
+          <img class="gamteknode" src="gamteknode.svg" alt="" />
+        </div>
+        <div class="content-node2">
+          <img class="explodenode" src="explodenode.svg" alt="" />
+        </div>
+        <div class="container-gateaway">
+          <div class="container-3d-2">
+            <img id="img-background-autran" src="GATEAWAY.svg" alt="" />
+            <model-viewer class="model-viewer-2"
+              src="gateaway.gltf"
+              alt="node3D"
+              shadow-intensity="2"
+              camera-controls
+              auto-rotate
+              ar
+            >
+            </model-viewer>
+          </div>
+          <div class="content-node">
+            <div class="container-img">
+              <img class="img-rangka" src="foto gateaway.png" alt="" />
+              <p class="txt-node">Gateaway dan GPS dalam greenhouse</p>
+            </div>
+            <img class="gamteknode" src="gamtekgateaway.svg" alt="" />
+          </div>
+          <div class="content-node2">
+            <img class="explodegateaway" src="explodegateaway.svg" alt="" />
+          </div>
+          <div class="container-3d-2">
+            <img id="img-background-gps" src="GPS.svg" alt="" />
+            <model-viewer class="model-viewer-2"
+              src="GPS.glb"
+              alt="node3D"
+              shadow-intensity="2"
+              camera-controls
+              auto-rotate
+              ar
+            >
+            </model-viewer>
+          </div>
+          <div class="content-node">
+            <div class="container-img">
+              <img class="img-gps" src="explodegps.svg" alt="" />
+              <!-- <p class="txt-node">Gateaway dan GPS dalam greenhouse</p> -->
+            </div>
+            <img class="gamtekgps" src="gamtekgps.svg" alt="" />
+          </div>
+        </div>
+        <div class="content-other-project"></div>
+      </div>
+    </div>
+    <div class="container-footer">
+      <div class="footer-atas">
+        <a class="navbar-brand" id="logo-footer" href="#"
+          ><img class="img-logo" src="LOGO.png" alt=""
+        /></a>
+        <div class="container-sosmed-footer">
+          <i class="fa-brands fa-linkedin icons"></i>
+          <i class="fa-brands fa-instagram icons"></i>
+          <i class="fa-brands fa-pinterest icons"></i>
+          <i class="fa-brands fa-whatsapp icons"></i>
+        </div>
+      </div>
+      <div class="footer-bawah">
+        <div class="menu-footer">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT ME</a>
+          </li>
+        </div>
+        <p id="copyright">&copy; Ahmad Fawzi Website 2022</p>
+      </div>
+    </div>
+
+    <!-- <img id="layoutautran" src="layoutautran.svg" alt="" /> -->
+
+    <!-- 💁 Include both scripts below to support all browsers! -->
+
+    <!-- Loads <model-viewer> for modern browsers: -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+
+    <!-- Loads <model-viewer> for old browsers like IE11: -->
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>
